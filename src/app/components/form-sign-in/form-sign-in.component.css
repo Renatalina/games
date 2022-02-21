@@ -1,0 +1,21 @@
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    width: 100%;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40em;
+    @media (max-width:767px) {
+        height:20em;
+    }
+}
+input.ng-invalid.ng-touched{
+    border: 1px solid red;
+}

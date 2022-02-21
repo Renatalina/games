@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "games-518cb"
+  },
+  "targets": {
+    "games-518cb": {
+      "hosting": {
+        "games": [
+          "games-518cb"
+        ]
+      }
+    }
+  }
+}

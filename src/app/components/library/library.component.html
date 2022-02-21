@@ -1,0 +1,19 @@
+<app-header></app-header>
+<h1>My Games</h1>
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="card" style="width: 18rem" *ngFor="let game of games">
+    <div class="card-img-top" alt="Card image cap">
+      <h5 class="text-white">{{ game.title }}</h5>
+    </div>
+    <div class="card-body">
+      <p class="card-text">
+        {{ game.discription }}
+      </p>
+      <div class="group-button">
+        <button class="btn btn-primary col-6">Download</button>
+        <button class="btn btn-outline-secondary col-6">Share</button>
+      </div>
+    </div>
+  </div>
+</div>

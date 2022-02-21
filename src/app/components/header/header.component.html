@@ -1,0 +1,12 @@
+<nav class="nav">
+  <a routerLink="/"><i class="bi bi-boombox-fill"></i></a>
+  <div routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+    <a routerLink="/login"
+      ><i class="fas fa-project-diagram" style="font-size: 36px"></i
+    ></a>
+  </div>
+  <a routerLink="/games" class="nav-link active" aria-current="page">Games</a>
+  <a routerLink="/library" class="nav-link">Library</a>
+  <a routerLink="/friends" class="nav-link">Friends</a>
+  <a routerLink="/profile" class="nav-link">Profile</a>
+</nav>

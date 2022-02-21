@@ -1,0 +1,103 @@
+<app-header></app-header>
+<h2>Games</h2>
+<div class="col-9 align-items-center">
+  <label for="search">Search Games</label>
+  <div class="input-group mb-3">
+    <input
+      type="text"
+      name="search"
+      class="form-control m-2"
+      placeholder="Search Games"
+      aria-label="Recipient's username"
+      aria-describedby="basic-addon2"
+      #inputSearch
+    />
+    <div class="input-group-append m-2">
+      <button
+        class="btn btn-primary"
+        type="button"
+        (click)="searchGame(inputSearch.value)"
+      >
+        Search
+      </button>
+    </div>
+  </div>
+</div>
+<div class="container main">
+  <div class="container container-games col-10">
+    <h2>Feature Games</h2>
+    <div class="row row-cols-10 row-cols g-4">
+      <div class="card" style="width: 18rem" *ngFor="let game of games">
+        <div class="card-img-top" alt="Card image cap">
+          <h5 class="text-white">{{ game.title }}</h5>
+          <h5 class="text-white text-end">{{ game.price }} UA</h5>
+        </div>
+        <div class="card-body">
+          <p class="card-text">
+            {{ game.discription }}
+          </p>
+          <div class="group-button">
+            <button class="btn btn-primary col-10" (click)="addGame(game)">
+              Add to Library
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container col-3 filter">
+    <div class="container">
+      <h6>Filter by price</h6>
+      <div class="progress">
+        <mat-slider
+          aria-label="unit(s)"
+          [invert]="invert"
+          [thumbLabel]="thumbLabel"
+          [(ngModel)]="value"
+          #slider
+          (input)="changeMatslider($event)"
+        ></mat-slider>
+      </div>
+      <h6>Any price</h6>
+    </div>
+
+    <div class="container mt-3">
+      <h6>Filter by tag</h6>
+      <ul class="list-group">
+        <li class="list-group-item">
+          <input
+            class="form-check-input me-1"
+            type="checkbox"
+            value="Indie"
+            #inputIndie
+            aria-label="..."
+            (change)="checked($event)"
+          />
+          Indie
+        </li>
+        <li class="list-group-item">
+          <input
+            class="form-check-input me-1"
+            type="checkbox"
+            value="Action"
+            aria-label="..."
+            #inputAction
+            (change)="checked($event)"
+          />
+          Action
+        </li>
+        <li class="list-group-item">
+          <input
+            class="form-check-input me-1"
+            type="checkbox"
+            value="Adventure"
+            #inputAdventure
+            aria-label="..."
+            (change)="checked($event)"
+          />
+          Adventure
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

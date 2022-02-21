@@ -1,0 +1,38 @@
+<form (ngSubmit)="submitForm(form)" class="col-5 form-sign-in" #form="ngForm">
+  <div class="form-group col-sm-9 col-md-4">
+    <label>Email</label>
+    <input
+      class="form-control"
+      type="text"
+      placeholder="Email"
+      ngModel
+      name="email"
+      required
+      email
+      #email="ngModel"
+    />
+    <p *ngIf="email.invalid && email.touched">Input correct email</p>
+  </div>
+  <div class="form-group mt-2 col-sm-9 col-md-4">
+    <label>Password</label>
+    <input
+      class="form-control"
+      type="password"
+      placeholder="Password"
+      ngModel
+      name="pass"
+      required
+      #pass="ngModel"
+    />
+    <p *ngIf="pass.invalid && pass.touched">Input correct password</p>
+  </div>
+  <div class="form-group mt-2 col-sm-9 col-md-4">
+    <button
+      class="btn btn-primary col-12"
+      type="submit"
+      [disabled]="!form.valid"
+    >
+      Sign In
+    </button>
+  </div>
+</form>

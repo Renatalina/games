@@ -1,0 +1,44 @@
+<app-header></app-header>
+<form (ngSubmit)="submitForm(form)" class="col-5 form-profile" #form="ngForm">
+  <div class="form-group mt-2 col-sm-9 col-md-4">
+    <label>Username</label>
+    <input
+      class="form-control"
+      type="text"
+      placeholder="Username"
+      [ngModel]="Username"
+      name="username"
+      required
+      #pass="ngModel"
+    />
+  </div>
+  <div class="form-group col-sm-9 col-md-4">
+    <label>Email</label>
+    <input
+      class="form-control"
+      type="text"
+      placeholder="Email"
+      [ngModel]="Email"
+      name="email"
+      required
+      email
+      #email="ngModel"
+      readonly
+    />
+  </div>
+  <div class="form-group mt-2 col-sm-9 col-md-4">
+    <label>Age</label>
+    <input
+      class="form-control"
+      type="text"
+      placeholder="Age"
+      [ngModel]="Age"
+      name="age"
+      required
+      #pass="ngModel"
+    />
+  </div>
+  <div class="form-group mt-2 col-sm-9 col-md-4">
+    <button class="btn btn-primary col-12" type="submit">Save</button>
+  </div>
+</form>

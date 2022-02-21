@@ -1,0 +1,264 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "natalina@gmail.com",
+      "password": "11111",
+      "friends": [
+        {
+          "id": 15,
+          "nameFriend": "John"
+        },
+        {
+          "id": 7,
+          "nameFriend": "Viktor"
+        }
+      ],
+      "library": [
+        {
+          "id": 5
+        },
+        {
+          "id": 7
+        }
+      ],
+      "username": "Natalina",
+      "age": 26
+    },
+    {
+      "id": 2,
+      "email": "tiger@gmail.com",
+      "password": "140214",
+      "friends": [
+        {
+          "id": 11,
+          "nameFriend": "Marina"
+        },
+        {
+          "id": 7,
+          "nameFriend": "Viktor"
+        }
+      ],
+      "library": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 5
+        },
+        {
+          "id": 7
+        }
+      ],
+      "username": "Tiger",
+      "age": 36
+    },
+    {
+      "id": 3,
+      "email": "supertiger@gmail.com",
+      "password": "888888",
+      "friends": [
+        {
+          "id": 15,
+          "nameFriend": "John"
+        },
+        {
+          "id": 25,
+          "nameFriend": "Nikolas"
+        },
+        {
+          "id": 11,
+          "nameFriend": "Marina"
+        }
+      ],
+      "library": [
+        {
+          "id": 3
+        },
+        {
+          "id": 4
+        }
+      ],
+      "username": "SuperPuperTiger",
+      "age": 36
+    },
+    {
+      "id": 200,
+      "email": "natalina@gmail.com",
+      "password": "11111",
+      "friends": [
+        {
+          "id": 7,
+          "nameFriend": "Viktor"
+        },
+        {
+          "id": 11,
+          "nameFriend": "Marina",
+          "btnAdd": false
+        },
+        {
+          "id": 25,
+          "nameFriend": "Nikolas",
+          "btnAdd": false
+        },
+        {
+          "id": 15,
+          "nameFriend": "John",
+          "btnAdd": false
+        }
+      ],
+      "library": [
+        {
+          "id": 5
+        },
+        {
+          "id": 7
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 6
+        }
+      ],
+      "username": "NatalinaViski",
+      "age": "26"
+    }
+  ],
+  "all_friends": [
+    {
+      "id": 5,
+      "nameFriend": "Stiff"
+    },
+    {
+      "id": 15,
+      "nameFriend": "John"
+    },
+    {
+      "id": 25,
+      "nameFriend": "Nikolas"
+    },
+    {
+      "id": 7,
+      "nameFriend": "Viktor"
+    },
+    {
+      "id": 9,
+      "nameFriend": "Nika"
+    },
+    {
+      "id": 11,
+      "nameFriend": "Marina"
+    }
+  ],
+  "games": [
+    {
+      "id": 1,
+      "title": "Doom Elemnt",
+      "price": 201,
+      "type": "Indie",
+      "discription": "Easily make an element as wide or as tall (relative to its parent) with our width and height utilities."
+    },
+    {
+      "id": 2,
+      "title": "Second Part",
+      "price": 423,
+      "type": "Adventure",
+      "discription": "AngularFire doesn't follow Angular's versioning as Firebase also has breaking changes throughout the year. Instead we try to maintain compatibility with both Firebase and Angular majors for as long as possible, only breaking when we need to support a new major of one or the other."
+    },
+    {
+      "id": 3,
+      "title": "Stormy Element",
+      "price": 602,
+      "type": "Indie",
+      "discription": "Easily make an element as wide or as tall (relative to its parent) with our width and height utilities."
+    },
+    {
+      "id": 4,
+      "title": "Hafy Element",
+      "price": 780,
+      "type": "Adventure",
+      "discription": "AngularFire doesn't follow Angular's versioning as Firebase also has breaking changes throughout the year. Instead we try to maintain compatibility with both Firebase and Angular majors for as long as possible, only breaking when we need to support a new major of one or the other."
+    },
+    {
+      "id": 5,
+      "title": "Strong Elemnt",
+      "price": 210,
+      "type": "Action",
+      "discription": "Easily make an element as wide or as tall (relative to its parent) with our width and height utilities."
+    },
+    {
+      "id": 6,
+      "title": "Roks Element",
+      "price": 380,
+      "type": "Action",
+      "discription": "AngularFire doesn't follow Angular's versioning as Firebase also has breaking changes throughout the year. Instead we try to maintain compatibility with both Firebase and Angular majors for as long as possible, only breaking when we need to support a new major of one or the other."
+    },
+    {
+      "id": 7,
+      "title": "Paper Element",
+      "price": 560,
+      "type": "Adventure",
+      "discription": "Easily make an element as wide or as tall (relative to its parent) with our width and height utilities."
+    },
+    {
+      "id": 8,
+      "title": "Fogy Element",
+      "price": 590,
+      "type": "Indie",
+      "discription": "Easily make an element as wide or as tall (relative to its parent) with our width and height utilities."
+    },
+    {
+      "id": 9,
+      "title": "Golden Element",
+      "price": 780,
+      "type": "Adventure",
+      "discription": "AngularFire doesn't follow Angular's versioning as Firebase also has breaking changes throughout the year. Instead we try to maintain compatibility with both Firebase and Angular majors for as long as possible, only breaking when we need to support a new major of one or the other."
+    },
+    {
+      "id": 10,
+      "title": "Silver Elemnt",
+      "price": 180,
+      "type": "Action",
+      "discription": "Easily make an element as wide or as tall (relative to its parent) with our width and height utilities."
+    },
+    {
+      "id": 11,
+      "title": "Dimond Element",
+      "price": 405,
+      "type": "Action",
+      "discription": "AngularFire doesn't follow Angular's versioning as Firebase also has breaking changes throughout the year. Instead we try to maintain compatibility with both Firebase and Angular majors for as long as possible, only breaking when we need to support a new major of one or the other."
+    },
+    {
+      "id": 12,
+      "title": "Brilliant Element",
+      "price": 560,
+      "type": "Adventure",
+      "discription": "Easily make an element as wide or as tall (relative to its parent) with our width and height utilities."
+    },
+    {
+      "id": 13,
+      "title": "Moved Element",
+      "price": 60,
+      "type": "Adventure",
+      "discription": "Easily make an element as wide our width and height utilities."
+    },
+    {
+      "id": 14,
+      "title": "Triller",
+      "price": 115,
+      "type": "Adventure",
+      "discription": "Easily make an element as wide our width and height utilities."
+    },
+    {
+      "id": 15,
+      "title": "Moved Element",
+      "price": 202,
+      "type": "Adventure",
+      "discription": "Easily make an element as wide our width and height utilities."
+    }
+  ]
+}
