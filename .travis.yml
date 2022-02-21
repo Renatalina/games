@@ -15,4 +15,4 @@ deploy:
 provider: heroku
 app: app-games-overlord
 api_key:
-secure: 9cc07abc-da92-44a4-a0b7-56413f957a00
+secure: 
